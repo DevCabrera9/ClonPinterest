@@ -45,6 +45,11 @@ img {
   height: 4.8rem;
   width: 4.8rem;
 }
+.logo__img:hover{
+  background-color: #dfdddd;
+  border-radius: 2.4rem;
+  padding: .5rem;
+}
 .logo__text {
   font-size: 2rem;
   padding: 1rem;
@@ -58,6 +63,10 @@ img {
   padding: 1rem;
   color: #000;
   width: 100%;
+  border-radius: 2.4rem;
+}
+.logo__text-dif:hover{
+  background-color: #dfdddd;
 }
 .search {
   width: 100%;
@@ -73,10 +82,19 @@ img {
   border-radius: 2rem;
   border: solid 0.1rem #f0f0f0;
 }
+.search__bar:hover{
+  background-color: #aeaeae;
+}
 .icon {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.material-icons:hover{
+  padding: .8rem;
+  background-color: #dfdddd;
+  border-radius: 2.4rem;
+
 }
 .nav__text {
   display: none;
