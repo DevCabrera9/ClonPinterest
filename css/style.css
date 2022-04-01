@@ -166,9 +166,11 @@ img {
   position: relative;
   display: flex;
   margin-top: 8rem;
+  padding: 2rem;
 }
 .zoom {
-    transition: transform .2s; 
+    transition: transform .2s;
+    border-radius: 1rem;
 }
  
 .zoom:hover {
@@ -185,6 +187,7 @@ img {
   margin-bottom: 16px;
   width: 100%;
 }
+
 @media (max-width: 820px) {
   .gallery {
     column-count: 3;
